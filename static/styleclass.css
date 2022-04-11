@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    font-family: cursive;
+    margin: 22px 23px;
+}
+.table{
+    font-size: 36px;
+    font-family: 'Vujahday Script', cursive;
+    text-align: center;
+}

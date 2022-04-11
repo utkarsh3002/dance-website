@@ -1,0 +1,61 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleclass.css
+
+block content 
+      h1 Time-Table of Online Dance Classes
+      table(style='width:100%', border='1',class="table")
+          tr
+             th Type of Dance
+             th Time Duration
+             th Total Fees
+          tr
+             td Hip Hop
+             td 2 months
+             td 25$
+          tr
+             td Ballroom
+             td 4 months
+             td 30$
+          tr
+             td Ballet
+             td 6 months
+             td 80$
+          tr
+             td Jazz
+             td 5 months
+             td 55$
+          tr
+             td Tap Dance
+             td 4 months
+             td 43$
+          tr
+             td Folk Dance
+             td 7 months
+             td 88$
+          tr
+             td Contemporary
+             td 5 months
+             td 56$
+          tr
+             td Irish Dance
+             td 4 months
+             td 46$
+          tr
+             td Modern Dance
+             td 8 months
+             td 92$
+          tr
+             td Swing Dance
+             td 7 months
+             td 67$
+          tr
+             td Lyrical Dance
+             td 6 months
+             td 55$

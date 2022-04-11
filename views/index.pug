@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    title Utkarsh Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+          ul
+            div#logo
+                img(src="/static/10.png")
+                |UDA
+            li #[a(href="/") Home]               
+            li #[a(href="/") About Us]                
+            li #[a(href="/") Services]              
+            li #[a(href="/") Class Info]             
+            li #[a(href="/") Contact Us]
+    section#introsection 
+        div  Welcome to Utkarsh's Dance Academy 
+        div.small  Ignite Your Dancing Flame
+    section#missionsection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/11.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/12.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/13.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsorsection 
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/logo1.png", alt="sponsor image",Class="spimage")
+            img(src="/static/logo11.png", alt="sponsor image",Class="spimage")
+            img(src="/static/logo12.png", alt="sponsor image",Class="spimage")
+            img(src="/static/logo9.png", alt="sponsor image",Class="spimage")
+    footer#footer 
+        | Copyright @ 2021 UtkarshDanceAcademy.com | All rights reserved     
+
+    script
+      include ../static/index.js

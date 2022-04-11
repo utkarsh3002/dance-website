@@ -1,0 +1,47 @@
+
+
+.container{
+    text-align: center;
+    background: url('/static/danceimg1.jpg') center/cover no-repeat;
+     width: 100%;
+    height: 800px;
+    opacity: 0.6;
+
+}
+
+.box h2{
+    font-size: 48px;
+    color: wheat;
+    text-align: center;
+    
+    
+    font-weight: bold;
+
+}
+
+.box>p{
+    font-size: 25px;
+    color: rgb(226, 214, 214);
+    margin: 55px 25px;
+    
+}
+
+.card1{
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    margin: 23px 24px;
+    padding: 20px 20px ;
+}
+
+.card1 h2{
+    color: yellow;
+}
+
+.card1-content{
+    font-size: 20px;
+    color: lavender;
+}
